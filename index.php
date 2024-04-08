@@ -24,7 +24,6 @@ curl_close($ch);
 
 <main>
     <section>
-        <h1><?= $data["id"]; ?></h1>
         <img src="<?= $data["poster_url"]; ?>" width="200" alt="Poster de <?= $data["title"]; ?>" style="border-radius: 16px;">
     </section>
     <hgroup>
